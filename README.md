@@ -1,71 +1,24 @@
-# FlashCards Starter Kit
+# FlashCards
 
-## Fork This Repo
+## Abstract
+  - In this project the goal was to use TDD to create a flashcards game that is playable in the terminal. The user will be promted a question and possible answers. They will then choose what answer they believe is correct. At the end of the game the grade will be presented and let the user know their percent of questions answered correctly.
 
-On the top right corner of this page, click the **Fork** button.
+## Technologies used
+  - JavaScript
+  - Test Driven Development
+  - Chai
+  - Mocha
+  - Trello 
 
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+## Set Up
+  - To use this project follow these steps
+    - Fork this repo
+    - clone down to your terminal
+    - CD into the flashcards parent directory
+    - type "node index.js"
 
 
-## Where to Add Your Code
+## Preview of Game
 
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+![Screen Shot 2022-10-13 at 6 20 30 PM](https://user-images.githubusercontent.com/110264166/195735043-d3ac20a2-ffcd-4d20-853b-16588bbd7775.png)
+![Screen Shot 2022-10-13 at 6 20 41 PM](https://user-images.githubusercontent.com/110264166/195735045-f584863c-35fd-49bd-9a22-0015903409e9.png)
