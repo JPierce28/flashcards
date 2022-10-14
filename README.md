@@ -8,7 +8,7 @@
   - Test Driven Development
   - Chai
   - Mocha
-  - Trello 
+  - [Trello](https://trello.com/b/Elfj8plY/flashcards) 
 
 ## Set Up
   - To use this project follow these steps
